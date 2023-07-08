@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project For Beginners</title>
+    <meta name="keyword" content="Landing Page Project with HTML CSS">
+    <meta name="description" content="Easy Landing Page Project">
+    <!------Fontlar------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome cdn---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!------Css dosyaları-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!----Tablet Responsive---->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+
+    <header class="bg-dark-blue">
+        <div class="container"><nav id="navbar">
+            <h1 class="heading-small">Hüsnü Tığrak</h1>
+
+            <ul>
+                <li><a href="#home">Main Page</a></li>
+                <li><a href="#training">Talents</a></li>
+                <li><a href="#courses">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav></div>
+        
+    </header>
+
+    <section id="home">
+        <img src="image/husnu.jpg" alt="Hüsnü Tığrak">
+
+        <div class="name">
+            <h2 class="heading-big">Hüsnü Tığrak</h2>
+            <p>Junior Frontend Developer</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Frontend Elements</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">TALENTS</h3>
+
+        <div class="items">
+
+            <article class="item">
+                <i class="fa-solid fa-book fa-lg"></i>
+                <h3>HTML 5</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, iste?</p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book fa-lg"></i>
+                <h3>CSS 3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, iste?</p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-book fa-lg"></i>
+                <h3>JAVASCRIPT</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, iste?</p>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Main Frontend Elements</h3>
+  
+        <div class="container">
+          <div class="courses">
+            <!-- Course 1 -->
+            <div class="course">
+              <div class="course-image">
+                <img src="image/htimage.png" alt="Python" />
+                <span>Learned</span>
+              </div>
+  
+              <div class="course-info">
+                <div class="title">
+                  What is HTML ?
+                </div>
+                <div class="description">
+                    HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+                </div>
+                <div class="instructor">Hüsnü Tığrak</div>
+                <div class="rating">User Rating 4.6 | (1M+ Voted)</div>
+              </div>
+            </div>
+            <!-- Course 2 -->
+            <div class="course">
+              <div class="course-image">
+                <img src="image/css3.png" alt="Java" />
+                <span>Learned</span>
+              </div>
+  
+              <div class="course-info">
+                <div class="title">
+                  What is CSS ?
+                </div>
+                <div class="description">
+                    CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (. css).
+
+                </div>
+                <div class="instructor">Hüsnü Tığrak</div>
+                <div class="rating">User Rating 4.6 | (500k+  Voted)</div>
+              </div>
+            </div>
+  
+            <!-- Course 3 -->
+            <div class="course">
+              <div class="course-image">
+                <img src="image/jslogo.png" alt="JavaScript" />
+                <span>Learned</span>
+              </div>
+  
+              <div class="course-info">
+                <div class="title">
+                  What is JAVASCRIPT ?
+                </div>
+                <div class="description">
+                    JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+                </div>
+                <div class="instructor">Hüsnü Tığrak</div>
+                <div class="rating">User Rating 4.7 | (800K+ Voted)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+          <form>
+            <h4 class="text-center heading-medium">Contact Me</h4>
+  
+            <div class="form-group">
+              <label for="name">Name & Surname</label>
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                placeholder="Your First Name & Last Name Here :)"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Your E-Mail Adress"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                rows="5"
+                placeholder="Your Messages Here"
+              ></textarea>
+            </div>
+  
+            <button type="submit" class="btn btn-block">Send</button>
+          </form>
+  
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    
+</body>
+</html>
